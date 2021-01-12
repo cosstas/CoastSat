@@ -22,19 +22,19 @@ setuptools.setup(
     ],
     python_requires='>=3.7',
     install_requires = [
-        'numpy==1.16.3',
-        'matplotlib==3.0.3',
-        'pillow==6.2.1',
-        'earthengine-api==0.1.236',
-        # 'gdal==2.3.3',
-        'pandas==0.24.2',
-        'geopandas==0.4.1',
-        'pytz==2020.1',
-        'scikit-image==0.15.0',
-        'scikit-learn==0.20.3',
-        'shapely==1.7.1',
-        'scipy==1.2.1',
-        'astropy==3.2.1'
+        'numpy>=1.16.3',
+        'matplotlib>=3.0.3',
+        'pillow>=6.2.1',
+        'earthengine-api>=0.1.236',
+        # 'gdal>=2.3.3',
+        'pandas>=0.24.2',
+        'geopandas>=0.4.1',
+        'pytz>=2020.1',
+        'scikit-image>=0.15.0',
+        'scikit-learn>=0.20.3',
+        'shapely>=1.7.1',
+        'scipy>=1.2.1',
+        'astropy>=3.2.1'
     ],
     project_urls={
         'GDAL': 'https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal'
