@@ -3,7 +3,6 @@ import setuptools
 setuptools.setup(
     name='coastsat-cosstas',
     version='1.1.1',
-    packages=['coastsat'],
     url='https://github.com/kvos/CoastSat',
     license='GNU General Public License v3.0',
     author='Killian Vos',
