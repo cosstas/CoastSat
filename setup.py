@@ -34,7 +34,7 @@ setuptools.setup(
         'scikit-learn==0.20.3',
         'shapely==1.6.4',
         'scipy==1.2.1',
-        'astropy=3.2.1',
+        'astropy==3.2.1',
         'spyder',
         'notebook'
     ],
