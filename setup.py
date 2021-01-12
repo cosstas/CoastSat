@@ -34,9 +34,7 @@ setuptools.setup(
         'scikit-learn==0.20.3',
         'shapely==1.7.1',
         'scipy==1.2.1',
-        'astropy==3.2.1',
-        'spyder',
-        'notebook'
+        'astropy==3.2.1'
     ],
     project_urls={
         'GDAL': 'https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal'
