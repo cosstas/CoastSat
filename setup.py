@@ -30,7 +30,7 @@ setuptools.setup(
         # 'gdal==2.3.3',
         'pandas==0.24.2',
         'geopandas==0.4.1',
-        'pytz==2020.1,
+        'pytz==2020.1',
         'scikit-image==0.15.0',
         'scikit-learn==0.20.3',
         'shapely==1.6.4',
