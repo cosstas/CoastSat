@@ -32,7 +32,7 @@ setuptools.setup(
         'pytz==2020.1',
         'scikit-image==0.15.0',
         'scikit-learn==0.20.3',
-        'shapely==1.6.4',
+        'shapely==1.7.1',
         'scipy==1.2.1',
         'astropy==3.2.1',
         'spyder',
