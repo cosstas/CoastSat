@@ -19,27 +19,27 @@ setuptools.setup(
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',
         'Topic :: Scientific/Engineering :: Image Recognition',
-        'Natural Language :: English',
+        'Natural Language :: English'
     ],
     python_requires='>=3.7',
     install_requires = [
-                        'numpy==1.16.3',
-                        'matplotlib==3.0.3',
-                        'pillow==6.2.1',
-                        'earthengine-api==0.1.236',
-                        # 'gdal==2.3.3',
-                        'pandas==0.24.2',
-                        'geopandas==0.4.1',
-                        'pytz=='2020.1',
-                        'scikit-image==0.15.0',
-                        'scikit-learn==0.20.3',
-                        'shapely==1.6.4',
-                        'scipy==1.2.1',
-                        'astropy=3.2.1',
-                        'spyder',
-                        'notebook'
-    ]
+        'numpy==1.16.3',
+        'matplotlib==3.0.3',
+        'pillow==6.2.1',
+        'earthengine-api==0.1.236',
+        # 'gdal==2.3.3',
+        'pandas==0.24.2',
+        'geopandas==0.4.1',
+        'pytz==2020.1,
+        'scikit-image==0.15.0',
+        'scikit-learn==0.20.3',
+        'shapely==1.6.4',
+        'scipy==1.2.1',
+        'astropy=3.2.1',
+        'spyder',
+        'notebook'
+    ],
     project_urls={
-                  'GDAL': 'https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal'
+        'GDAL': 'https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal'
     },
 )
