@@ -14,7 +14,11 @@ setuptools.setup(
     # long_description_content_type='text/markdown',
     keywords='google-earth-engine, earth-engine, remote-sensing, satellite-images, coastal-engineering, shoreline-detection',
     packages=setuptools.find_packages(),
-    include_package_data=True,
+    data_files=[
+        ('classification', ['classification/*.*']),
+        ('doc', ['doc/*.*']),
+        ('examples', ['examples/*.*'])
+    ]
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3',
