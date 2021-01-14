@@ -14,6 +14,7 @@ setuptools.setup(
     # long_description_content_type='text/markdown',
     keywords='google-earth-engine, earth-engine, remote-sensing, satellite-images, coastal-engineering, shoreline-detection',
     packages=setuptools.find_packages(),
+    package_dir = {'': 'coastsat'},
     include_package_data=True,
     classifiers=[
         'Development Status :: 4 - Beta',
