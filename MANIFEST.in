@@ -1,6 +1,6 @@
-recursive-include classification *
-recursive-include doc *
-recursive-include examples *
+recursive-include classification
+recursive-include doc
+recursive-include examples
 
 include README.md
 include LICENSE.txt
