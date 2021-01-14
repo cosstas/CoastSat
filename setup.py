@@ -8,10 +8,13 @@ setuptools.setup(
     author='Killian Vos',
     author_email='k.vos@unsw.edu.au',
     description='A python toolkit to obtain shoreline position detection from satellite imagery',
-    long_description='CoastSat is an open-source software toolkit written in Python that enables users to obtain time-series of shoreline position at any coastline worldwide from 30+ years (and growing) of publicly available satellite imagery.',
-    long_description_content_type='text/markdown',
+    long_description=('CoastSat is an open-source software toolkit written in Python that enables '
+                      'users to obtain time-series of shoreline position at any coastline worldwide '
+                      'from 30+ years (and growing) of publicly available satellite imagery.'),
+    # long_description_content_type='text/markdown',
     keywords='google-earth-engine, earth-engine, remote-sensing, satellite-images, coastal-engineering, shoreline-detection',
     packages=setuptools.find_packages(),
+    include_package_data=True,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3',
@@ -37,6 +40,6 @@ setuptools.setup(
         'astropy>=3.2.1'
     ],
     project_urls={
-        'GDAL': 'https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal'
+        'Github': 'https://github.com/kvos/CoastSat'
     },
 )
