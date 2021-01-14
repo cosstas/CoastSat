@@ -1,0 +1,10 @@
+recursive-include classification *
+recursive-include doc *
+recursive-include examples *
+
+include README.md
+include LICENSE.txt
+include MANIFEST.in
+include setup.py
+include example.py
+include example_jupyter.ipynb
