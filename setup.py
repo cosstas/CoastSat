@@ -19,6 +19,7 @@ setuptools.setup(
     #     ('doc', ['doc/*.*']),
     #     ('examples', ['examples/*.*'])
     # ],
+    include_package_data=True,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3',
