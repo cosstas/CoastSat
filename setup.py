@@ -18,7 +18,7 @@ setuptools.setup(
         ('classification', ['classification/*.*']),
         ('doc', ['doc/*.*']),
         ('examples', ['examples/*.*'])
-    ]
+    ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3',
